@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Image from "next/image";
 const Skills = () => {
   const skillLogos = [
     "/html-5.svg",
@@ -24,7 +25,16 @@ const Skills = () => {
       >
         <div className="flex mx-auto justify-between p-5">
           {skillLogos.map((logo) => {
-            return <img src={logo} height={100} width={100} className="m-5" />;
+            return (
+              <Image
+                key={logo}
+                src={logo}
+                height={100}
+                width={100}
+                className="m-5"
+                alt={logo}
+              />
+            );
           })}
         </div>
       </motion.div>

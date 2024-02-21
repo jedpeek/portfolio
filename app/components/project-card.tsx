@@ -16,7 +16,10 @@ const ProjectCard = ({
 }) => {
   return (
     <>
-      <div className="card lg:card-side  shadow-xl p-3 m-5 hover:scale-110 duration-200">
+      <div
+        key={title}
+        className="card lg:card-side  shadow-xl p-3 m-5 hover:scale-110 duration-200"
+      >
         <a href={lnk} target="_blank">
           <figure>
             <Image
@@ -32,7 +35,11 @@ const ProjectCard = ({
             <p>{description}</p>
             <div className="card-actions justify-between">
               {badges.map((badge: any) => {
-                return <div className="badge badge-outline">{badge}</div>;
+                return (
+                  <div key={badge} className="badge badge-outline">
+                    {badge}
+                  </div>
+                );
               })}
               {/* <div className="badge badge-outline">HTML</div>
               <div className="badge badge-outline">CSS</div>
