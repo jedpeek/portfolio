@@ -34,6 +34,7 @@ export const Projects = () => {
         {projectData.map((project) => {
           return (
             <ProjectCard
+              key={project.title}
               imageSrc={project.imageSrc}
               title={project.title}
               description={project.description}
