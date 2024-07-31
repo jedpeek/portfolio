@@ -11,9 +11,9 @@ const Hero = () => {
               <h1 className="text-5xl md:text-6xl font-bold mb-4">Jed Peek</h1>
               <h1 className="text-4xl md:text-5xl  mb-4">Frontend Engineer</h1>
               <p className="text-lg md:text-xl text-zinc-700 w-full md:w-5/6 leading-8 mb-8">
-                Hi, my name is Jed. I've been building and developing websites
-                since 2016. I love to utilize new technologies and simple
-                designs.
+                Hi, my name is Jed. I&apos;ve been building and developing
+                websites since 2016. I love to utilize new technologies and
+                simple designs.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 items-center">
                 {/* <a
