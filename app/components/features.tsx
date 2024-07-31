@@ -7,7 +7,7 @@ const Features = () => {
         <div className="max-w-screen-xl w-full mx-auto px-6 lg:px-16">
           <div className="w-full grid grid-cols-1 md:grid-cols-2 items-center gap-x-16 mb-8 md:mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              I'm your{" "}
+              I&apos;m your{" "}
               <span className="relative whitespace-nowrap text-blue-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +104,8 @@ const Features = () => {
                 </h3>
                 <p className="text-base text-zinc-500">
                   Websites built with search engine optimization in mind to
-                  enhance your website's discoverability on any search engine.
+                  enhance your website&apos;s discoverability on any search
+                  engine.
                 </p>
               </div>
             </div>
