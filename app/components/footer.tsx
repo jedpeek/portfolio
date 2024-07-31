@@ -12,7 +12,11 @@ const Footer = () => {
           © 2024
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <a className="text-gray-500 hover:scale-110 duration-150">
+          <a
+            className="text-gray-500 hover:scale-110 duration-150"
+            href="https://github.com/jedpeek"
+            target="_blank"
+          >
             <svg
               fill="currentColor"
               stroke-linecap="round"
@@ -25,7 +29,11 @@ const Footer = () => {
             </svg>
           </a>
 
-          <a className="ml-3 text-gray-500 hover:scale-110 duration-150">
+          <a
+            className="ml-3 text-gray-500 hover:scale-110 duration-150"
+            href="https://www.linkedin.com/in/jed-peek/"
+            target="_blank"
+          >
             <svg
               fill="currentColor"
               stroke="currentColor"

@@ -49,7 +49,11 @@ const Navbar = () => {
             <FaGithub />
           </svg>
         </a>
-        <a className="inline-flex items-center rounded-full border-0 py-1 px-3 focus:outline-none  rounded text-base mt-4 md:mt-0">
+        <a
+          className="inline-flex items-center rounded-full border-0 py-1 px-3 focus:outline-none  rounded text-base mt-4 md:mt-0"
+          href="https://www.linkedin.com/in/jed-peek/"
+          target="_blank"
+        >
           <svg
             fill="none"
             stroke="currentColor"
