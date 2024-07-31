@@ -37,9 +37,9 @@ const Gallery = () => {
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {data.map((site) => {
+          {data.map((site, i) => {
             return (
-              <div className="lg:w-1/3 sm:w-1/2 p-4">
+              <div className="lg:w-1/3 sm:w-1/2 p-4" key={i}>
                 <div className="flex relative">
                   <img
                     alt="gallery"
