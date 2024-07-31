@@ -65,6 +65,7 @@ const Gallery = () => {
                 description={site.description}
                 imgURL={site.imgURL}
                 link={site.link}
+                key={i}
               />
             );
           })}
